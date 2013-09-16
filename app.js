@@ -1,6 +1,6 @@
 (function() {
   return {
-    searchableTicketStatuses: ['', 'new', 'open','pending', 'hold'],
+    searchableTicketStatuses: ['', 'new', 'open','pending', 'hold', 'solved', 'closed'],
     defaultState: 'list',
     requests: {
       fetchUser: function(id) {
@@ -116,15 +116,7 @@
     /*
      * VIEW RENDERING
      */
-    renderUserInHeader: function(user){
-      var html = user.name + ' <small>'+ (user.email || '') +'</small>';
-
-      return this.$('h3 span').html(html);
-    },
-
     renderUser: function(params){
-      //this.renderUserInHeader(params.user);
-
       this.$('section[data-user]')
         .html(this.renderTemplate('user', params));
 
@@ -153,21 +145,14 @@
     },
 
     renderTicketCount: function(entity, count, type){
+      console.log("render ", entity, ':', count, ':', type);
       var el = this.$('section[data-'+entity+']');
-      var selector = 'ticket-count';
-      var html = count;
+      var selector = helpers.fmt('.ticket_details .ticket-count-%@', type);
+      if (count === 0) {
+        count = "-";
+      }
 
-      if (type && !_.isEmpty(type))
-        selector =  selector + '-' + type;
-
-      if (el.find('span.' + selector).data('label'))
-        html = _.template('<strong><%= label %> (<%= count %>)</strong>',{
-          label: el.find('span.' + selector).data('label'),
-          count: count
-        });
-
-      return el.find('span.' + selector)
-        .html(html);
+      this.$(selector).html(count);
     },
 
     renderOrganization: function(params){
@@ -230,11 +215,6 @@
             var spokeData = this.spokeData(e);
 
             if (spokeData){
-              /*this.renderUserInHeader({
-                name: this.ticket().requester().name(),
-                email: spokeData.email
-              });*/
-
               this.$('section[data-user] span.email')
                 .html(spokeData.email);
               return this.renderSpokeTicket(spokeData);
@@ -274,7 +254,7 @@
           notes: this.$('.notes').val()
         }
       });
-    },400),
+    }, 400),
 
     fetchUserMetrics: function(user){
       if (_.isEmpty(user.email))

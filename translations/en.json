@@ -22,10 +22,12 @@
   "notes": "Notes",
   "organization": "Organization",
   "ticket_status": {
-    "new": "new",
-    "open": "open",
-    "pending": "pending",
-    "hold": "on-hold"
+    "new": "n",
+    "open": "o",
+    "pending": "p",
+    "hold": "h",
+    "solved": "s",
+    "closed": "c"
   },
   "spoke-ticket": {
     "link": {

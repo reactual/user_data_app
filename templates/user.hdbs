@@ -1,55 +1,49 @@
-<div class="well well-small">
+<div>
   <div class="row-fluid">
     <ul class="small-margin">
-      <li class="pull-right centered">
+      <li class="centered pull-left">
         {{#if user.photo}}
-        <div class="avatar">
-          <img src="{{user.photo.content_url}}" height="45" width="45" alt="image"/>
-        </div>
-        {{else}}
-        <div class="avatar default"></div>
+          <div class="avatar">
+            <img src="{{user.photo.content_url}}" height="45" width="45" alt="image"/>
+          </div>
+          {{else}}
+          <div class="avatar default"></div>
         {{/if}}
-        <i class="locale"></i>
       </li>
-      <li>
-        <a href="#/tickets/{{ticket.id}}/requester/tickets">
-          <i class="icon-user"></i>
-          <strong>{{user.name}}</strong>
-        </a>
-      </li>
-      <li>
-        <i class="icon-envelope"></i>
-        <span class="email">{{user.email}}</span>
-      </li>
-      <li>
-        <a href="#/tickets/{{ticket.id}}/requester/tickets">
-          <i class="icon-list"></i>
-          {{t "tickets"}} <strong>(<span class="ticket-count"></span>)</strong>
-        </a>
-      </li>
+      <li class="name">{{user.name}}</li>
+      <li class="email">{{user.email}}</li>
+      <li class="phone">{{user.phone}}</li>
       <li>
         <div class="ticket_details">
-          <span class="ticket_status_label new ticket-count-new" data-label="{{t "ticket_status.new"}}">
-            <strong>{{t "ticket_status.new"}}</strong>
+          <span class="ticket_status_label new">
+            {{t "ticket_status.new"}}
           </span>
-          &nbsp;
-          <span class="ticket_status_label open ticket-count-open" data-label="{{t "ticket_status.open"}}">
-            <strong>
-              {{t "ticket_status.open"}}
-            </strong>
+          <span class="ticket-count-new count"></span>
+
+          <span class="ticket_status_label open">
+            {{t "ticket_status.open"}}
           </span>
-          &nbsp;
-          <span class="ticket_status_label pending ticket-count-pending" data-label="{{t "ticket_status.pending"}}">
-            <strong>
-              {{t "ticket_status.pending"}}
-            </strong>
+          <span class="ticket-count-open count"></span>
+
+          <span class="ticket_status_label solved">
+            {{t "ticket_status.solved"}}
           </span>
-          &nbsp;
-          <span class="ticket_status_label hold ticket-count-hold" data-label="{{t "ticket_status.hold"}}">
-            <strong>
-              {{t "ticket_status.hold"}}
-            </strong>
+          <span class="ticket-count-solved count"></span>
+
+          <span class="ticket_status_label pending">
+            {{t "ticket_status.pending"}}
           </span>
+          <span class="ticket-count-pending count"></span>
+
+          <span class="ticket_status_label hold">
+            {{t "ticket_status.hold"}}
+          </span>
+          <span class="ticket-count-hold count"></span>
+
+          <span class="ticket_status_label closed">
+            {{t "ticket_status.closed"}}
+          </span>
+          <span class="ticket-count-closed count"></span>
         </div>
       </li>
       <li>
@@ -63,15 +57,13 @@
         {{/if}}
       </li>
     </ul>
-    <div class="row-fluid">
-    <a class="details_and_notes pull-right">
-      <em>({{t "toggle_details_notes"}})</em>
-    </a>
+    <div class="row-fluid expandBar">
+      <a class="details_and_notes"><span class="ui-icon ui-icon-triangle-1-s"></span></a>
     </div>
     {{#if user_has_organization}}
-    <a class="organization pull-right">
+    <!--<a class="organization pull-right">
       <em>({{t "toggle_organization"}})</em>
-    </a>
+    </a> -->
     {{/if}}
   </div>
 </div>
