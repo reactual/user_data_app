@@ -78,7 +78,6 @@
       /*
        *  DOM EVENTS
        */
-      'click header'                    : function(){ this.toggleApp(); },
       'change,keyup,input,paste textarea.details_or_notes': 'detailsOrNotesChanged',
       'click a.details_and_notes'       : function(){ this.toggleDetailsAndNotes(); },
       'click a.organization'            : function(){ this.toggleOrganization(); }
@@ -159,20 +158,18 @@
         .html(this.renderTemplate('organization', params));
     },
 
-    toggleApp: function(){
-      var app = this.$('section[data-main]');
-
-      if (app.is(':visible')){
-        app.hide();
-        this.$('h3 i').attr('class', 'icon-plus');
-      } else {
-        app.show();
-        this.$('h3 i').attr('class', 'icon-minus');
-      }
-    },
-
     toggleDetailsAndNotes: function(){
-      return this.$('section[data-details-notes] .details-notes').toggle();
+      var details = this.$('section[data-details-notes] .details-notes');
+      var expandBar = this.$('.expandBar span');
+      if (details.is(':visible')) {
+        expandBar.addClass('ui-icon-triangle-1-s');
+        expandBar.removeClass('ui-icon-triangle-1-n');
+      }
+      else {
+        expandBar.addClass('ui-icon-triangle-1-n');
+        expandBar.removeClass('ui-icon-triangle-1-s');
+      }
+      return details.toggle();
     },
 
     toggleOrganization: function(){
