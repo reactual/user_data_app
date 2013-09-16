@@ -172,7 +172,7 @@
     },
 
     toggleDetailsAndNotes: function(){
-      return this.$('section[data-details-notes] .well').toggle();
+      return this.$('section[data-details-notes] .details-notes').toggle();
     },
 
     toggleOrganization: function(){

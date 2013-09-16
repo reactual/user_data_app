@@ -1,13 +1,12 @@
-<div class="well well-small" style="display:none;">
+<div class="details-notes" style="display:none;">
   <div class="row-fluid">
-    <h4 class="span12">{{t "details_and_notes"}}</h4>
+    <hr/>
     <div class="details_and_notes_container">
-      <label><strong>{{t "details"}}:</strong>
-        <textarea class="details_or_notes details">{{details}}</textarea>
-      </label>
-      <label><strong>{{t "notes"}}:</strong>
-        <textarea class="details_or_notes notes">{{notes}}</textarea>
-      </label>
+      <label>{{t "details"}}</label>
+      <textarea class="details_or_notes details">{{details}}</textarea>
+      <hr/>
+      <label>{{t "notes"}}</label>
+      <textarea class="details_or_notes notes">{{notes}}</textarea>
     </div>
   </div>
 </div>

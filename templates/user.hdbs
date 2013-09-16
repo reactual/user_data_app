@@ -57,6 +57,10 @@
         {{/if}}
       </li>
     </ul>
+
+    <section data-details-notes>
+    </section>
+
     <div class="row-fluid expandBar">
       <a class="details_and_notes"><span class="ui-icon ui-icon-triangle-1-s"></span></a>
     </div>
