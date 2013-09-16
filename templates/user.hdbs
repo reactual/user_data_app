@@ -46,7 +46,7 @@
           <span class="ticket-count-closed count"></span>
         </div>
       </li>
-      <li>
+<!--      <li>
         <i class="icon-tag"></i>
         {{#if user.tags}}
         {{#each user.tags}}
@@ -55,7 +55,7 @@
         {{else}}
         {{t "info.no_tags"}}
         {{/if}}
-      </li>
+      </li>-->
     </ul>
 
     <section data-details-notes>
