@@ -63,6 +63,18 @@ section[data-user] {
   padding: 0px;
   padding-top: 15px;
 
+  &:hover {
+    .name {
+      color: #146eaa;
+    }
+
+    .social {
+      .twitter {
+        background-position: -6px -11px;
+      }
+    }
+  }
+
   .expandBar {
     background-color: rgb(251, 251, 251);
     border-top: 1px solid rgb(238, 238, 238);
@@ -75,12 +87,18 @@ section[data-user] {
       background-image: -moz-linear-gradient(90deg,rgba(0, 0, 0, 0.08) 0%, rgba(245,245,245,0) 100%);
       background-image: -webkit-linear-gradient(90deg,rgba(0, 0, 0, 0.08) 0%, rgba(245,245,245,0) 100%);
       background-image: -ms-linear-gradient(90deg,rgba(0, 0, 0, 0.08) 0%, rgba(245,245,245,0) 100%);
+
+      span {
+        opacity: 1;
+      }
     }
 
     span {
       display: block;
       margin-left: auto;
       margin-right: auto;
+      opacity: 0.2;
+
     }
   }
 
@@ -92,6 +110,19 @@ section[data-user] {
 
     img {
       border-radius: 4px;
+    }
+  }
+
+  .social {
+    margin-top: 30px;
+
+    .twitter {
+      width: 11px;
+      height: 10px;
+      display: block;
+      background-image: app-asset-url("ico-social-sprite.png");
+      background-position: -6px 0px;
+      background-repeat: no-repeat;
     }
   }
 

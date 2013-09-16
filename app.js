@@ -5,7 +5,7 @@
     requests: {
       fetchUser: function(id) {
         return {
-          url: '/api/v2/users/' + id + '.json?include=organizations',
+          url: '/api/v2/users/' + id + '.json?include=organizations,identities',
           proxy_v2: true,
           dataType: 'json'
         };
@@ -183,14 +183,17 @@
     fetchUserDone: function(data){
       var user = data.user;
       var organization = data.organizations[0];
+      var identities = _.filter(data.identities, function(ident) {
+        return _.contains(['twitter', 'facebook'], ident.type);
+      });
       var ticket =  { id: this.ticket().id() };
 
       this.fetchUserMetrics(user);
-      this.ajax('fetchLocale', user.locale_id);
 
       this.renderUser({
         user: user,
         ticket: ticket,
+        identities: identities,
         user_has_organization: !!organization
       });
 

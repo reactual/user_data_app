@@ -10,6 +10,11 @@
           <div class="avatar default"></div>
         {{/if}}
       </li>
+      <li class="social pull-right">
+        {{#each identities}}
+          <a href="{{value}}" class="{{type}}"></a>
+        {{/each}}
+      </li>
       <li class="name">{{user.name}}</li>
       <li class="email">{{user.email}}</li>
       <li class="phone">{{user.phone}}</li>
