@@ -123,7 +123,7 @@
     },
 
     renderUser: function(params){
-      this.renderUserInHeader(params.user);
+      //this.renderUserInHeader(params.user);
 
       this.$('section[data-user]')
         .html(this.renderTemplate('user', params));
@@ -230,10 +230,10 @@
             var spokeData = this.spokeData(e);
 
             if (spokeData){
-              this.renderUserInHeader({
+              /*this.renderUserInHeader({
                 name: this.ticket().requester().name(),
                 email: spokeData.email
-              });
+              });*/
 
               this.$('section[data-user] span.email')
                 .html(spokeData.email);

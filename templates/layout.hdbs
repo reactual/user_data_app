@@ -1,6 +1,1 @@
-<header>
-  <span class="logo"/>
-  <a><h3><i class="icon-plus"></i> <span>{{setting "name"}}</span></h3></a>
-</header>
-<section data-main  style="display:none" />
-
+<section data-main />
