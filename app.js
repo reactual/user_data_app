@@ -145,7 +145,6 @@
     },
 
     renderTicketCount: function(entity, count, type){
-      console.log("render ", entity, ':', count, ':', type);
       var el = this.$('section[data-'+entity+']');
       var selector = helpers.fmt('.ticket_details .ticket-count-%@', type);
       if (count === 0) {
