@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/bg.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Приложение „Данни за потребителя“",
+    "description": "Показва информация за заявителя на казуса и организацията на заявителите.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Отворена по подразбиране тава за приложения"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/de.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Benutzerdaten",
+    "description": "Zeigt Informationen über den Anfragenden des Tickets und die Organisation des Anfragenden an.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Apps-Leiste per Vorgabe geöffnet"
+      }
+    }
+  }
+}

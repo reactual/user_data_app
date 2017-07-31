@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/ja.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "ユーザー情報アプリ",
+    "description": "チケットのリクエスタおよびリクエスタの組織についての情報を表示します。",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "デフォルトで開いているアプリのトレイ"
+      }
+    }
+  }
+}

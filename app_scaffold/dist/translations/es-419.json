@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/es-419.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Aplicación Datos de usuario",
+    "description": "Muestra información sobre el solicitante del ticket y la organización del solicitante.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "La bandeja Aplicaciones está abierta de manera predeterminada"
+      }
+    }
+  }
+}

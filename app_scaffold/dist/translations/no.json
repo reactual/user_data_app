@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/no.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "App for brukerdata",
+    "description": "Viser informasjon om saksanmoderen og organisasjonen til anmoderen.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Appeskuffen åpnes som standard"
+      }
+    }
+  }
+}

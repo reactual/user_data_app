@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/fr-ca.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Application User Info",
+    "description": "Afficher les informations au sujet du demandeur du billet et de son organisation.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Ouverture au démarrage"
+      }
+    }
+  }
+}

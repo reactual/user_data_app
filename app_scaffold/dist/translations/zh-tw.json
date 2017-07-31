@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/zh-tw.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "使用者資料 App",
+    "description": "顯示關於工單請求者和請求者組織的資訊。",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "預設開啟 App 匣"
+      }
+    }
+  }
+}

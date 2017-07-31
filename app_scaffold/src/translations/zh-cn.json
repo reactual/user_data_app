@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "显示关于工单请求者和请求者组织的信息。",
+    "name": "用户数据应用",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "默认打开应用栏"
+      }
+    }
+  },
+  "admin": {
+    "title": "用户数据管理员面板",
+    "save": "保存并返回",
+    "text": "请选择您要在应用上永久显示的用户字段",
+    "include_org_fields": "显示组织信息"
+  },
+  "info": {
+    "no_tags": "没有标签",
+    "no_domain_names": "没有域名"
+  },
+  "update_organization_done": "组织注释和详情已更新",
+  "update_user_done": "用户注释和详情已更新！",
+  "ajax_error": "发生错误。请稍后重试。",
+  "tickets": "工单",
+  "toggle_details_notes": "切换详情和注释",
+  "toggle_organization": "切换组织",
+  "details_and_notes": "详情和注释",
+  "details": "详情",
+  "notes": "注释",
+  "locale": "用户的语言",
+  "tags": "标签",
+  "organization": "组织",
+  "ticket_status": {
+    "new": "新",
+    "open": "开",
+    "pending": "待",
+    "hold": "停",
+    "solved": "解",
+    "closed": "闭"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "此工单来自轮辐帐户："
+    }
+  },
+  "account": "帐户",
+  "spoke_ticket_id": "轮辐工单 ID"
+}

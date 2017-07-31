@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Zobrazí informace o klientovi tiketu a organizaci klienta.",
+    "name": "Aplikace Data uživatele",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Panel aplikací otevřený ve výchozím nastavení"
+      }
+    }
+  },
+  "admin": {
+    "title": "Panel Správa dat uživatelů",
+    "save": "Uložit a vrátit se zpět",
+    "text": "Vyberte prosím pole uživatelů, která chcete v aplikaci trvale zobrazovat",
+    "include_org_fields": "Zobrazit informace o organizaci"
+  },
+  "info": {
+    "no_tags": "Žádné štítky",
+    "no_domain_names": "Žádné názvy domén"
+  },
+  "update_organization_done": "Poznámky a detaily organizace byly aktualizovány",
+  "update_user_done": "Poznámky a detaily uživatele byly aktualizovány",
+  "ajax_error": "Došlo k chybě. Zkuste to prosím znovu později.",
+  "tickets": "Tikety",
+  "toggle_details_notes": "Přepnout detaily a poznámky",
+  "toggle_organization": "Přepnout organizaci",
+  "details_and_notes": "Detaily a poznámky",
+  "details": "Detaily",
+  "notes": "Poznámky",
+  "locale": "Jazyk uživatele",
+  "tags": "Štítky",
+  "organization": "Organizace",
+  "ticket_status": {
+    "new": "n",
+    "open": "o",
+    "pending": "č",
+    "hold": "p",
+    "solved": "v",
+    "closed": "u"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Tento tiket je z paprskového účtu Spoke:"
+    }
+  },
+  "account": "Účet",
+  "spoke_ticket_id": "ID paprskového tiketu"
+}

@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/pl.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Aplikacja Dane użytkownika",
+    "description": "Wyświetla informacje o osobie zlecającej zgłoszenie oraz jej organizacji.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Zasobnik Aplikacje otwarty domyślnie"
+      }
+    }
+  }
+}

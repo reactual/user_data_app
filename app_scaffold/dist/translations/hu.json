@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/hu.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Felhasználói Adat Alkalmazás",
+    "description": "Információ megjelenítése a jegyek igénylőitől és az igénylő cégtől. ",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Alkalmazások tálca alapértelmezettként megnyitva"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Muestra información sobre el solicitante del ticket y la organización del solicitante.",
+    "name": "Aplicación Datos de usuario",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "La bandeja Aplicaciones está abierta de manera predeterminada"
+      }
+    }
+  },
+  "admin": {
+    "title": "Panel Administrador de datos de usuario",
+    "save": "Guardar y regresar",
+    "text": "Seleccione los campos de usuario que desee mostrar de forma permanente en la aplicación",
+    "include_org_fields": "Mostrar información de la organización"
+  },
+  "info": {
+    "no_tags": "No hay etiquetas",
+    "no_domain_names": "No hay nombres de dominio"
+  },
+  "update_organization_done": "Notas y detalles de la organización actualizados",
+  "update_user_done": "Notas y detalles del usuario actualizados.",
+  "ajax_error": "Se ha producido un error. Vuelva a intentarlo más tarde.",
+  "tickets": "Tickets",
+  "toggle_details_notes": "Ocultar/mostrar detalles y notas",
+  "toggle_organization": "Ocultar/mostrar organización",
+  "details_and_notes": "Detalles y notas",
+  "details": "Detalles",
+  "notes": "Notas",
+  "locale": "Idioma del usuario",
+  "tags": "Etiquetas",
+  "organization": "Organización",
+  "ticket_status": {
+    "new": "n",
+    "open": "a",
+    "pending": "p",
+    "hold": "e",
+    "solved": "r",
+    "closed": "c"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Este ticket es de la cuenta de marca:"
+    }
+  },
+  "account": "Cuenta",
+  "spoke_ticket_id": "ID de ticket de cuenta de marca"
+}

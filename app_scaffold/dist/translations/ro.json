@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/ro.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Aplicaţie Date despre utilizator",
+    "description": "Afişează informaţii despre solicitantul tichetului şi organizaţia solicitantului.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Bară de sistem cu aplicaţii deschisă în mod implicit"
+      }
+    }
+  }
+}

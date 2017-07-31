@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Viser oplysninger om ticket-anmoderen og anmoderens organisation.",
+    "name": "appen Brugerdata",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Bakken Apps åbner som standard"
+      }
+    }
+  },
+  "admin": {
+    "title": "Panelet Brugerdataadmin",
+    "save": "Gem og gå tilbage",
+    "text": "Vælg de brugerfelter, du ønsker at vise permanent i appen",
+    "include_org_fields": "Vis oplysninger om organisationen"
+  },
+  "info": {
+    "no_tags": "Ingen tags",
+    "no_domain_names": "Ingen domænenavne"
+  },
+  "update_organization_done": "Organisationsnotater og -detaljer er opdateret",
+  "update_user_done": "Brugernotater og -detaljer opdateret.",
+  "ajax_error": "Der forekom en fejl. Prøv igen senere.",
+  "tickets": "Tickets",
+  "toggle_details_notes": "Skift detaljer og notater",
+  "toggle_organization": "Skift organisation",
+  "details_and_notes": "Detaljer og notater",
+  "details": "Detaljer",
+  "notes": "Notater",
+  "locale": "Brugers sprog",
+  "tags": "Tags",
+  "organization": "Organisation",
+  "ticket_status": {
+    "new": "n",
+    "open": "å",
+    "pending": "v",
+    "hold": "b",
+    "solved": "ø",
+    "closed": "l"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Denne ticket er fra spoke-kontoen:"
+    }
+  },
+  "account": "Konto",
+  "spoke_ticket_id": "Spoke-ticket-id"
+}

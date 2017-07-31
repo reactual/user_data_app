@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Displays information about the ticket requester and requesters organization.",
+    "name": "User Data App",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Apps tray opened by default"
+      }
+    }
+  },
+  "admin": {
+    "title": "User Data Admin panel",
+    "save": "Save and go back",
+    "text": "Please select the user fields you would like to permanently display on the app",
+    "include_org_fields": "Display organization information"
+  },
+  "info": {
+    "no_tags": "No tags",
+    "no_domain_names": "No domain names"
+  },
+  "update_organization_done": "Organization notes and details updated",
+  "update_user_done": "User notes and details updated.",
+  "ajax_error": "An error occurred. Please try again later.",
+  "tickets": "Tickets",
+  "toggle_details_notes": "Toggle details and notes",
+  "toggle_organization": "Toggle organization",
+  "details_and_notes": "Details and notes",
+  "details": "Details",
+  "notes": "Notes",
+  "locale": "User's language",
+  "tags": "Tags",
+  "organization": "Organization",
+  "ticket_status": {
+    "new": "n",
+    "open": "o",
+    "pending": "p",
+    "hold": "h",
+    "solved": "s",
+    "closed": "c"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "This ticket is from the spoke account:"
+    }
+  },
+  "account": "Account",
+  "spoke_ticket_id": "Spoke ticket ID"
+}

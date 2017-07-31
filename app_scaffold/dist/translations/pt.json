@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/pt.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Aplicativo Dados do usuário",
+    "description": "Exibe as informações sobre o solicitante do ticket e a organização dos solicitantes.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Bandeja de aplicativos aberta por padrão"
+      }
+    }
+  }
+}

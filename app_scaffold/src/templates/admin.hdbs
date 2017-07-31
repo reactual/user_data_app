@@ -1,0 +1,35 @@
+<a class="back"><i class="icon-circle-arrow-left"/></a>
+<h4>{{t "admin.title"}}</h4>
+<p>{{t "admin.text"}}</p>
+
+<ul class="fields-list">
+  {{#each fields}}
+    <li>
+      <input type="checkbox" value="{{key}}" id="{{key}}" {{#if selected}}checked{{/if}}/>
+      <label for="{{key}}">{{title}}</label>
+    </li>
+  {{/each}}
+</ul>
+
+{{#if orgFields.length }}
+  <div class="org-fields">
+    <label class="checkbox">
+      <input type="checkbox" class="org-fields-activate" {{#if orgFieldsActivated}}checked{{/if}}>
+      {{t "admin.include_org_fields"}}
+    </label>
+
+    <ul class="org-fields-list" {{#unless orgFieldsActivated}}style="display: none"{{/unless}}>
+      {{#each orgFields}}
+        <li>
+          <label class="checkbox">
+            <input type="checkbox" value="{{key}}" {{#if selected}}checked{{/if}}>
+            {{title}}
+          </label>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+{{/if}}
+
+<button class="btn save">{{t "admin.save"}}</button>
+<div class="wait-spin hide">{{spinner}}</div>

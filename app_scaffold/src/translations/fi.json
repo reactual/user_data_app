@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Näyttää tiketin lähettäjän ja tiketin lähettäjän organisaation tiedot.",
+    "name": "Käyttäjätiedot-sovellus",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Oletuksena avattu sovellusalue"
+      }
+    }
+  },
+  "admin": {
+    "title": "Käyttäjätietojen hallintapaneeli",
+    "save": "Tallenna ja siirry takaisin",
+    "text": "Valitse käyttäjän kentät, jotka haluat näyttää pysyvästi sovelluksessa.",
+    "include_org_fields": "Näytä organisaation tiedot"
+  },
+  "info": {
+    "no_tags": "Ei avainsanoja",
+    "no_domain_names": "Ei toimialueen nimiä"
+  },
+  "update_organization_done": "Organisaation huomautukset ja tiedot päivitetty",
+  "update_user_done": "Käyttäjän huomautukset ja tiedot päivitetty!",
+  "ajax_error": "Tapahtui virhe. Yritä myöhemmin uudelleen.",
+  "tickets": "Tiketit",
+  "toggle_details_notes": "Vaihda tiedot ja huomautukset",
+  "toggle_organization": "Vaihda organisaatio",
+  "details_and_notes": "Tiedot ja huomautukset",
+  "details": "Tiedot",
+  "notes": "Huomautukset",
+  "locale": "Käyttäjän kieli",
+  "tags": "Avainsanat",
+  "organization": "Organisaatio",
+  "ticket_status": {
+    "new": "u",
+    "open": "a",
+    "pending": "o",
+    "hold": "p",
+    "solved": "r",
+    "closed": "s"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Tämä tiketti on oheistililtä:"
+    }
+  },
+  "account": "Tili",
+  "spoke_ticket_id": "Oheistiketin tunnus"
+}

@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/nl.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "De app Gebruikersgegevens",
+    "description": "Geeft informatie over de ticketaanvrager en organisatie van de aanvrager weer.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "De lade met apps standaard geopend"
+      }
+    }
+  }
+}

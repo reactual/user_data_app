@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/it.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "App Dati utente",
+    "description": "Visualizza informazioni sul richiedente del ticket e la sua organizzazione.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Sezione app aperta per impostazione predefinita"
+      }
+    }
+  }
+}

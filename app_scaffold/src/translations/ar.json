@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "عرض معلومات حول طالب التذكرة ومنظمة الطالب.",
+    "name": "تطبيق بيانات المستخدم",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "علبة التطبيقات مفتوحة افتراضيًا"
+      }
+    }
+  },
+  "admin": {
+    "title": "لوحة إدارة بيانات المستخدم",
+    "save": "حفظ وعودة",
+    "text": "يُرجى اختيار حقول المستخدم التي ترغب في عرضها بصفة دائمة عبر التطبيق",
+    "include_org_fields": "عرض معلومات المنظمة"
+  },
+  "info": {
+    "no_tags": "لا توجد وسوم",
+    "no_domain_names": "لا توجد أسماء نطاقات"
+  },
+  "update_organization_done": "تم تحديث ملاحظات وتفاصيل المنظمة",
+  "update_user_done": "تم تحديث ملاحظات وتفاصيل المؤسسة",
+  "ajax_error": "حدث خطأ. الرجاء إعادة المحاولة لاحقًا.",
+  "tickets": "التذاكر",
+  "toggle_details_notes": "تبديل التفاصيل والملاحظات",
+  "toggle_organization": "تبديل المنظمة",
+  "details_and_notes": "تفاصيل وملاحظات",
+  "details": "تفاصيل",
+  "notes": "ملاحظات",
+  "locale": "لغة المستخدم",
+  "tags": "وسوم",
+  "organization": "المنظمة",
+  "ticket_status": {
+    "new": "ج",
+    "open": "ف",
+    "pending": "ق",
+    "hold": "ع",
+    "solved": "ح",
+    "closed": "غ"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "هذه التذكرة من حساب رافد:"
+    }
+  },
+  "account": "الحساب",
+  "spoke_ticket_id": "معرف تذكرة رافد"
+}

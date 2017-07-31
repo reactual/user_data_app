@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/fr.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Application Données utilisateur",
+    "description": "Afficher les informations au sujet du demandeur du ticket et de son organisation.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Barre Applications ouverte par défaut"
+      }
+    }
+  }
+}

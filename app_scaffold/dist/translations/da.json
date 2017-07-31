@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/da.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "appen Brugerdata",
+    "description": "Viser oplysninger om ticket-anmoderen og anmoderens organisation.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Bakken Apps åbner som standard"
+      }
+    }
+  }
+}

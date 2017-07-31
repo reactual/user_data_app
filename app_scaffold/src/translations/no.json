@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Viser informasjon om saksanmoderen og organisasjonen til anmoderen.",
+    "name": "App for brukerdata",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Appeskuffen åpnes som standard"
+      }
+    }
+  },
+  "admin": {
+    "title": "Administratorpanel for brukerdata",
+    "save": "Lagre og gå tilbake",
+    "text": "Velg brukerfeltene som du vil at alltid skal vises i appen",
+    "include_org_fields": "Vis informasjon om organisasjonen"
+  },
+  "info": {
+    "no_tags": "Ingen tagger",
+    "no_domain_names": "Ingen domenenavn"
+  },
+  "update_organization_done": "Organisasjonsmerknader og -detaljer ble oppdatert",
+  "update_user_done": "Merknader og detaljer om bruker er oppdatert!",
+  "ajax_error": "Det oppstod en feil. Prøv på nytt senere.",
+  "tickets": "Saker",
+  "toggle_details_notes": "Bytt mellom detaljer og merknader",
+  "toggle_organization": "Aktiver/deaktiver organisasjon",
+  "details_and_notes": "Detaljer og merknader",
+  "details": "Detaljer",
+  "notes": "Merknader",
+  "locale": "Brukerens språk",
+  "tags": "Tagger",
+  "organization": "Organisasjon",
+  "ticket_status": {
+    "new": "n",
+    "open": "å",
+    "pending": "p",
+    "hold": "t",
+    "solved": "s",
+    "closed": "u"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Denne saken er fra satelittkontoen:"
+    }
+  },
+  "account": "Konto",
+  "spoke_ticket_id": "ID for satelittsak"
+}

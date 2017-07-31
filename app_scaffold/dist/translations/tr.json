@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/tr.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Kullanıcı Verileri Uygulaması",
+    "description": "Kaydı talep eden kişi ve o kişinin organizasyon birimi hakkında bilgileri görüntüler.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Varsayılan olarak açılan Uygulamalar tepsisi"
+      }
+    }
+  }
+}

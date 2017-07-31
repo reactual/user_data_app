@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "티켓 요청자 및 요청자 조직에 관한 정보를 표시합니다.",
+    "name": "사용자 데이터 앱",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "기본으로 열리는 앱 트레이"
+      }
+    }
+  },
+  "admin": {
+    "title": "사용자 데이터 관리자 패널",
+    "save": "저장하고 돌아가기",
+    "text": "앱에 영구적으로 표시하고자 하는 사용자 필드를 선택하세요.",
+    "include_org_fields": "조직 정보 표시"
+  },
+  "info": {
+    "no_tags": "태그가 없습니다.",
+    "no_domain_names": "도메인 이름이 없습니다."
+  },
+  "update_organization_done": "조직 메모 및 세부 정보가 업데이트되었습니다.",
+  "update_user_done": "사용자 메모 및 세부 정보가 업데이트되었습니다!",
+  "ajax_error": "오류가 발생했습니다. 나중에 다시 시도하세요.",
+  "tickets": "티켓",
+  "toggle_details_notes": "세부 정보 및 메모 토글",
+  "toggle_organization": "조직 토글",
+  "details_and_notes": "세부 정보 및 메모",
+  "details": "세부 정보",
+  "notes": "메모",
+  "locale": "사용자 언어",
+  "tags": "태그",
+  "organization": "조직",
+  "ticket_status": {
+    "new": "n",
+    "open": "o",
+    "pending": "p",
+    "hold": "h",
+    "solved": "s",
+    "closed": "c"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "스포크 계정에서 보낸 티켓입니다."
+    }
+  },
+  "account": "계정",
+  "spoke_ticket_id": "스포크 티켓 아이디"
+}

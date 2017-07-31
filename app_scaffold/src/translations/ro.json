@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Afişează informaţii despre solicitantul tichetului şi organizaţia solicitantului.",
+    "name": "Aplicaţie Date despre utilizator",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Bară de sistem cu aplicaţii deschisă în mod implicit"
+      }
+    }
+  },
+  "admin": {
+    "title": "Panou Administrare date utilizator",
+    "save": "Salvare şi revenire",
+    "text": "Vă rugăm să selectaţi câmpurile pentru utilizator pe care aţi dori să le afişaţi permanent în aplicaţie",
+    "include_org_fields": "Afişare informaţii organizaţie"
+  },
+  "info": {
+    "no_tags": "Fără etichete",
+    "no_domain_names": "Fără nume de domeniu"
+  },
+  "update_organization_done": "Notele şi detaliile organizaţiei au fost actualizate",
+  "update_user_done": "Notele şi detaliile utilizatorului au fost actualizate.",
+  "ajax_error": "A apărut o eroare. Vă rugăm să încercaţi mai târziu.",
+  "tickets": "Tichete",
+  "toggle_details_notes": "Comutare detalii şi note",
+  "toggle_organization": "Comutare organizaţie",
+  "details_and_notes": "Detalii şi note",
+  "details": "Detalii",
+  "notes": "Note",
+  "locale": "Limba utilizatorului",
+  "tags": "Etichete",
+  "organization": "Organizaţie",
+  "ticket_status": {
+    "new": "n",
+    "open": "d",
+    "pending": "a",
+    "hold": "p",
+    "solved": "s",
+    "closed": "î"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Acest tichet este de la contul personalizat cu elemente de marcă:"
+    }
+  },
+  "account": "Cont",
+  "spoke_ticket_id": "Identificator tichet cont personalizat cu elemente de marcă"
+}

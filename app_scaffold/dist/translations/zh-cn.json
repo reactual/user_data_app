@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/zh-cn.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "用户数据应用",
+    "description": "显示关于工单请求者和请求者组织的信息。",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "默认打开应用栏"
+      }
+    }
+  }
+}

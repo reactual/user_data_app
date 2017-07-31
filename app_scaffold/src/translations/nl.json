@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Geeft informatie over de ticketaanvrager en organisatie van de aanvrager weer.",
+    "name": "De app Gebruikersgegevens",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "De lade met apps standaard geopend"
+      }
+    }
+  },
+  "admin": {
+    "title": "Admin-panel voor Gebruikersgegevens",
+    "save": "Opslaan en terug gaan",
+    "text": "Selecteer de gebruikersvelden die u permanent in de app weergegeven wilt hebben",
+    "include_org_fields": "Informatie over organisatie weergeven"
+  },
+  "info": {
+    "no_tags": "Geen tags",
+    "no_domain_names": "Geen domeinnamen"
+  },
+  "update_organization_done": "Organisatienotities en details bijgewerkt!",
+  "update_user_done": "Gebruikersnotities en details bijgewerkt!",
+  "ajax_error": "Er is een fout opgetreden. Probeer het later opnieuw.",
+  "tickets": "Tickets",
+  "toggle_details_notes": "Schakelen tussen details en notities",
+  "toggle_organization": "Schakelen tussen organisaties",
+  "details_and_notes": "Details en notities",
+  "details": "Details",
+  "notes": "Notities",
+  "locale": "Taal van de gebruiker",
+  "tags": "Tags",
+  "organization": "Organisatie",
+  "ticket_status": {
+    "new": "n",
+    "open": "o",
+    "pending": "w",
+    "hold": "p",
+    "solved": "s",
+    "closed": "g"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Dit ticket is van het spoke-account:"
+    }
+  },
+  "account": "Account",
+  "spoke_ticket_id": "Spoke-ticket-id"
+}

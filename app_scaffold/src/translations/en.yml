@@ -1,0 +1,154 @@
+---
+title: "Zendesk User Data"
+packages:
+  - default
+  - app_user_data_app
+
+parts:
+  - translation:
+      key: "txt.apps.user_data_app.app.name"
+      title: "Name for App: User Data"
+      value: "User Data"
+  - translation:
+      key: "txt.apps.user_data_app.app.description"
+      title: "Description for App: User Data"
+      value: "Displays information about the ticket requester and requesters organization."
+  - translation:
+      key: "txt.apps.user_data_app.app.long_description"
+      title: "Long Description for App: User Data"
+      value: "The Zendesk Support User Data app gives you customer information, including user and organization details such as tags, ticket activity, and contact, right next to a ticket.
+
+
+With more context around the customer, your agents get a holistic view of the interactions your customers have had with your organization and can provide a more tailored response.
+
+
+For any questions, please email [support@zendesk.com](mailto:support@zendesk.com).
+
+
+By enabling this app, You agree to the [Built by Zendesk Terms of Use](https://www.zendesk.com/company/built-by-zendesk-agmt/)."
+  - translation:
+      key: "txt.apps.user_data_app.app.installation_instructions"
+      title: "Installation Instructions for App: User Data"
+      value: "To install the User Data app:
+
+
+1. Sign in to your Zendesk Support account, then click the Admin icon in the sidebar.
+
+2. Select **Apps > Marketplace**, then find the User Data app and click the tile.
+
+3. On the User Data app page, click **Install app** in the upper-right corner.
+
+4. Enter a name for the app, then click **Install**. "
+  - translation:
+      key: "txt.apps.user_data_app.app.parameters.unfolded_on_startup.label"
+      title: "Check box option in the settings to allow the admin to choose to open the apps tray automatically when the ticket loads"
+      value: "Apps tray opened by default"
+  - translation:
+      key: "txt.apps.user_data_app.admin.title"
+      title: "Header or the page showing the user settings in the App"
+      value: "User Data Admin panel"
+  - translation:
+      key: "txt.apps.user_data_app.admin.save"
+      title: "Button at the bottom of the user data admin panel page to save and go back"
+      value: "Save and go back"
+  - translation:
+      key: "txt.apps.user_data_app.admin.text"
+      title: "Help text for the admin"
+      value: "Please select the user fields you would like to permanently display on the app"
+  - translation:
+      key: "txt.apps.user_data_app.admin.include_org_fields"
+      title: "Check box to display org fields"
+      value: "Display organization information"
+  - translation:
+      key: "txt.apps.user_data_app.info.no_tags"
+      title: "Placeholder when there are no tags"
+      value: "No tags"
+  - translation:
+      key: "txt.apps.user_data_app.info.no_domain_names"
+      title: "Placeholder when there are no domain names"
+      value: "No domain names"
+  - translation:
+      key: "txt.apps.user_data_app.update_organization_done"
+      title: "Growl notification to advise the admin the notes and details have been updated"
+      value: "Organization notes and details updated"
+  - translation:
+      key: "txt.apps.user_data_app.update_user_done"
+      title: "Growl notification to advise the admin the notes and details have been updated"
+      value: "User notes and details updated."
+  - translation:
+      key: "txt.apps.user_data_app.ajax_error"
+      title: "Error message notification"
+      value: "An error occurred. Please try again later."
+  - translation:
+      key: "txt.apps.user_data_app.tickets"
+      title: "Number of tickets for this user after this it will always be a number like 12 or 3"
+      value: "Tickets"
+  - translation:
+      key: "txt.apps.user_data_app.toggle_details_notes"
+      title: "Link to toggle open / close the details and notes box"
+      value: "Toggle details and notes"
+  - translation:
+      key: "txt.apps.user_data_app.toggle_organization"
+      title: "Link to toggle open / close the organization box"
+      value: "Toggle organization"
+  - translation:
+      key: "txt.apps.user_data_app.details_and_notes"
+      title: "Header/title for the details and notes box"
+      value: "Details and notes"
+  - translation:
+      key: "txt.apps.user_data_app.details"
+      title: "Details box after this will be an editable text box"
+      value: "Details"
+  - translation:
+      key: "txt.apps.user_data_app.notes"
+      title: "Notes box after this will be an editable text box"
+      value: "Notes"
+  - translation:
+      key: "txt.apps.user_data_app.locale"
+      title: "language of this user"
+      value: "User's language"
+  - translation:
+      key: "txt.apps.user_data_app.tags"
+      title: "List of the tags of this user"
+      value: "Tags"
+  - translation:
+      key: "txt.apps.user_data_app.organization"
+      title: "Name of this user organization"
+      value: "Organization"
+  - translation:
+      key: "txt.apps.user_data_app.ticket_status.new"
+      title: "first letter of status new"
+      value: "n"
+  - translation:
+      key: "txt.apps.user_data_app.ticket_status.open"
+      title: "first letter of status open"
+      value: "o"
+  - translation:
+      key: "txt.apps.user_data_app.ticket_status.pending"
+      title: "first letter of status pending"
+      value: "p"
+  - translation:
+      key: "txt.apps.user_data_app.ticket_status.hold"
+      title: "first letter of status hold (on hold)"
+      value: "h"
+  - translation:
+      key: "txt.apps.user_data_app.ticket_status.solved"
+      title: "first letter of status solved"
+      value: "s"
+  - translation:
+      key: "txt.apps.user_data_app.ticket_status.closed"
+      title: "first letter of status closed"
+      value: "c"
+  - translation:
+      key: "txt.apps.user_data_app.spoke-ticket.link.pre"
+      title: "this is text displayed in the app to say which account does the ticket come from, it will say for instance this ticket is from the spoke account COMPANY. The only variable here is the word Company, the word spoke is added as a string after"
+      value: "This ticket is from the spoke account:"
+  - translation:
+      key: "txt.apps.user_data_app.account"
+      title: "This is the account from this user"
+      value: "Account"
+  - translation:
+      key: "txt.apps.user_data_app.spoke_ticket_id"
+      title: "this is the ticket ID from the spoke of that user"
+      value: "Spoke ticket ID"
+

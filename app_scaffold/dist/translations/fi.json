@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/fi.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Käyttäjätiedot-sovellus",
+    "description": "Näyttää tiketin lähettäjän ja tiketin lähettäjän organisaation tiedot.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Oletuksena avattu sovellusalue"
+      }
+    }
+  }
+}

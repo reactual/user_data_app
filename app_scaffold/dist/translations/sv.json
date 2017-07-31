@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/sv.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Användaruppgifter",
+    "description": "Visar information om ärendefrågeställaren och dennes organisation.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Appfältet öppnas som standard"
+      }
+    }
+  }
+}

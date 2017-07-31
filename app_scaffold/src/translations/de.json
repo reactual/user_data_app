@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Zeigt Informationen über den Anfragenden des Tickets und die Organisation des Anfragenden an.",
+    "name": "Benutzerdaten",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Apps-Leiste per Vorgabe geöffnet"
+      }
+    }
+  },
+  "admin": {
+    "title": "Benutzerdaten – Admin-Bedienfeld",
+    "save": "Speichern und zurück",
+    "text": "Wählen Sie die Benutzerfelder aus, die permanent in der App angezeigt werden sollen.",
+    "include_org_fields": "Organisationsinformationen anzeigen"
+  },
+  "info": {
+    "no_tags": "Keine Stichworte",
+    "no_domain_names": "Keine Domänennamen"
+  },
+  "update_organization_done": "Organisationsnotizen und -details aktualisiert",
+  "update_user_done": "Benutzernotizen und –details aktualisiert!",
+  "ajax_error": "Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+  "tickets": "Tickets",
+  "toggle_details_notes": "Details und Notizen ein-/ausblenden",
+  "toggle_organization": "Organisation ein-/ausblenden",
+  "details_and_notes": "Details und Notizen",
+  "details": "Details",
+  "notes": "Notizen",
+  "locale": "Sprache des Benutzers",
+  "tags": "Stichworte",
+  "organization": "Organisation",
+  "ticket_status": {
+    "new": "n",
+    "open": "o",
+    "pending": "w",
+    "hold": "a",
+    "solved": "l",
+    "closed": "s"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Dieses Ticket stammt von einem Spoke-Konto:"
+    }
+  },
+  "account": "Konto",
+  "spoke_ticket_id": "Ticket-ID des Spoke"
+}

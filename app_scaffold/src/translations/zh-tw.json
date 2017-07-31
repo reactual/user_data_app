@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "顯示關於工單請求者和請求者組織的資訊。",
+    "name": "使用者資料 App",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "預設開啟 App 匣"
+      }
+    }
+  },
+  "admin": {
+    "title": "使用者資料管理員儀表板",
+    "save": "儲存並返回",
+    "text": "請選取您要永久顯示在 app 上的使用者欄位",
+    "include_org_fields": "顯示組織資訊"
+  },
+  "info": {
+    "no_tags": "無標籤",
+    "no_domain_names": "無網域名稱"
+  },
+  "update_organization_done": "已更新組織備註和詳情",
+  "update_user_done": "已更新使用者備註和詳情！",
+  "ajax_error": "發生錯誤。請稍後重試。",
+  "tickets": "工單",
+  "toggle_details_notes": "切換詳情和備註",
+  "toggle_organization": "切換組織",
+  "details_and_notes": "詳情和備註",
+  "details": "詳情",
+  "notes": "備註",
+  "locale": "使用者語言",
+  "tags": "標籤",
+  "organization": "組織",
+  "ticket_status": {
+    "new": "新",
+    "open": "開",
+    "pending": "未",
+    "hold": "停",
+    "solved": "解",
+    "closed": "閉"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "此工單來自輪輻帳戶："
+    }
+  },
+  "account": "帳戶",
+  "spoke_ticket_id": "輪輻工單 ID"
+}

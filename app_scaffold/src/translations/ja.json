@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "チケットのリクエスタおよびリクエスタの組織についての情報を表示します。",
+    "name": "ユーザー情報アプリ",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "デフォルトで開いているアプリのトレイ"
+      }
+    }
+  },
+  "admin": {
+    "title": "ユーザー情報管理パネル",
+    "save": "保存して戻る",
+    "text": "アプリに継続的に表示するユーザーフィールドを選択します",
+    "include_org_fields": "組織情報を表示"
+  },
+  "info": {
+    "no_tags": "タグなし",
+    "no_domain_names": "ドメイン名なし"
+  },
+  "update_organization_done": "組織のメモおよび詳細を更新しました",
+  "update_user_done": "ユーザーのメモおよび詳細を更新しました!",
+  "ajax_error": "エラーが発生しました。しばらく経ってからもう一度やり直してください。",
+  "tickets": "チケット",
+  "toggle_details_notes": "詳細およびメモを表示/非表示",
+  "toggle_organization": "組織を表示/非表示",
+  "details_and_notes": "詳細およびメモ",
+  "details": "詳細",
+  "notes": "メモ",
+  "locale": "ユーザーの言語",
+  "tags": "タグ",
+  "organization": "組織",
+  "ticket_status": {
+    "new": "新",
+    "open": "オ",
+    "pending": "保",
+    "hold": "待",
+    "solved": "済",
+    "closed": "終"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "このチケットはspokeアカウントからです:"
+    }
+  },
+  "account": "アカウント",
+  "spoke_ticket_id": "SpokeチケットID"
+}

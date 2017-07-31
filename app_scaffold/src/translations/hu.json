@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Információ megjelenítése a jegyek igénylőitől és az igénylő cégtől. ",
+    "name": "Felhasználói Adat Alkalmazás",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Alkalmazások tálca alapértelmezettként megnyitva"
+      }
+    }
+  },
+  "admin": {
+    "title": "Felhasználói Adat Admin felület",
+    "save": "Ment és visszalép",
+    "text": "Kérem válassza ki a felhasználó-mezőket, amiket szeretne állandóan megjeleníteni az alkalmazáson.",
+    "include_org_fields": "Rendezési információk megjelenítése"
+  },
+  "info": {
+    "no_tags": "Nincsenek címkék",
+    "no_domain_names": "Nincsenek domén nevek"
+  },
+  "update_organization_done": "Szervezeti értesítések és adatok frissítve",
+  "update_user_done": "Felhasználó értesítések és adatok frissítve.",
+  "ajax_error": "Hiba történt. Kérjük próbálja meg később.",
+  "tickets": "Jegyek",
+  "toggle_details_notes": "Részletek és Jegyzetek váltása",
+  "toggle_organization": "Szervezet váltása",
+  "details_and_notes": "Részletek és megjegyzések",
+  "details": "Részletek",
+  "notes": "Megyjegyzések",
+  "locale": "A felhasználó nyelve",
+  "tags": "Címkék",
+  "organization": "Szervezet",
+  "ticket_status": {
+    "new": "n",
+    "open": "o",
+    "pending": "P",
+    "hold": "tartás",
+    "solved": "s",
+    "closed": "m"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Ez a jegy a következő Spoke fiókról való:"
+    }
+  },
+  "account": "Fiók",
+  "spoke_ticket_id": "Spoke jegy azonosító"
+}

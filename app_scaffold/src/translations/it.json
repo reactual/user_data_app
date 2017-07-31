@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Visualizza informazioni sul richiedente del ticket e la sua organizzazione.",
+    "name": "App Dati utente",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Sezione app aperta per impostazione predefinita"
+      }
+    }
+  },
+  "admin": {
+    "title": "Pannello amministrazione Dati utente",
+    "save": "Salva e torna indietro",
+    "text": "Seleziona i campi utente da visualizzare in maniera permanente nell’app",
+    "include_org_fields": "Visualizza informazioni sull’organizzazione"
+  },
+  "info": {
+    "no_tags": "Nessun tag",
+    "no_domain_names": "Nessun nome di dominio"
+  },
+  "update_organization_done": "Aggiornamento dettagli e note organizzazione completato.",
+  "update_user_done": "Aggiornamento dettagli e note utente completato.",
+  "ajax_error": "Si è verificato un errore. Riprova più tardi.",
+  "tickets": "Ticket",
+  "toggle_details_notes": "Attiva/disattiva dettagli e note",
+  "toggle_organization": "Attiva/disattiva organizzazione",
+  "details_and_notes": "Dettagli e note",
+  "details": "Dettagli",
+  "notes": "Note",
+  "locale": "Lingua dell’utente",
+  "tags": "Tag",
+  "organization": "Organizzazione",
+  "ticket_status": {
+    "new": "n",
+    "open": "a",
+    "pending": "i",
+    "hold": "s",
+    "solved": "r",
+    "closed": "c"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Questo ticket proviene dall’account Spoke:"
+    }
+  },
+  "account": "Account",
+  "spoke_ticket_id": "ID ticket Spoke"
+}

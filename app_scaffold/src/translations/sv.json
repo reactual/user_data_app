@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Visar information om ärendefrågeställaren och dennes organisation.",
+    "name": "Användaruppgifter",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Appfältet öppnas som standard"
+      }
+    }
+  },
+  "admin": {
+    "title": "Admin-panel för användaruppgifter",
+    "save": "Spara och gå tillbaka",
+    "text": "Välj de användarfält som du vill visa permanent i appen",
+    "include_org_fields": "Visa organisationsinformation"
+  },
+  "info": {
+    "no_tags": "Inga taggar",
+    "no_domain_names": "Inget domännamn"
+  },
+  "update_organization_done": "Organisationsanteckningar och -uppgifter uppdaterade",
+  "update_user_done": "Användaranteckningar och -uppgifter uppdaterade.",
+  "ajax_error": "Ett fel inträffade. Försök igen senare.",
+  "tickets": "Ärenden",
+  "toggle_details_notes": "Visa/dölj detaljer och anteckningar",
+  "toggle_organization": "Visa/dölj organisation",
+  "details_and_notes": "Detaljer och anteckningar",
+  "details": "Detaljer",
+  "notes": "Anteckningar",
+  "locale": "Användarens språk",
+  "tags": "Taggar",
+  "organization": "Organisation",
+  "ticket_status": {
+    "new": "n",
+    "open": "ö",
+    "pending": "v",
+    "hold": "p",
+    "solved": "l",
+    "closed": "s"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Detta ärende kommer från satellitkontot:"
+    }
+  },
+  "account": "Konto",
+  "spoke_ticket_id": "Satellitärende-ID"
+}

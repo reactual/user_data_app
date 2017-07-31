@@ -1,0 +1,9 @@
+<div class="well well-small alert">
+  <strong>
+    {{t "spoke-ticket.link.pre"}}
+    <a href="https://{{account}}.zendesk.com">{{account}}</a>
+    <br/>
+    {{t "spoke_ticket_id"}}:
+    <a href="https://{{account}}.zendesk.com/tickets/{{id}}">{{id}}</a>
+  </strong>
+</div>

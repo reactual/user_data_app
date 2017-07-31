@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/cs.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Aplikace Data uživatele",
+    "description": "Zobrazí informace o klientovi tiketu a organizaci klienta.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Panel aplikací otevřený ve výchozím nastavení"
+      }
+    }
+  }
+}

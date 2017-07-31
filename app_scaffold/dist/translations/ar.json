@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/ar.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "تطبيق بيانات المستخدم",
+    "description": "عرض معلومات حول طالب التذكرة ومنظمة الطالب.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "علبة التطبيقات مفتوحة افتراضيًا"
+      }
+    }
+  }
+}

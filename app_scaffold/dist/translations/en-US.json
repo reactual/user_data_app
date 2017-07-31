@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/en-US.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "User Data App",
+    "description": "Displays information about the ticket requester and requesters organization.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Apps tray opened by default"
+      }
+    }
+  }
+}

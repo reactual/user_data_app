@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Afficher les informations au sujet du demandeur du ticket et de son organisation.",
+    "name": "Application Données utilisateur",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Barre Applications ouverte par défaut"
+      }
+    }
+  },
+  "admin": {
+    "title": "Panneau d’administration Données utilisateur",
+    "save": "Enregistrer et revenir en arrière",
+    "text": "Sélectionnez les champs utilisateur que vous voulez afficher de manière permanente dans l’application.",
+    "include_org_fields": "Afficher les informations de l’organisation"
+  },
+  "info": {
+    "no_tags": "Aucun marqueur",
+    "no_domain_names": "Aucun nom de domaine"
+  },
+  "update_organization_done": "Notes et détails de l’organisation mis à jour",
+  "update_user_done": "Notes et détails de l’utilisateur mis à jour !",
+  "ajax_error": "Une erreur est survenue. Réessayez plus tard.",
+  "tickets": "Tickets",
+  "toggle_details_notes": "Afficher/masquer les détails et les notes",
+  "toggle_organization": "Afficher/masquer l’organisation",
+  "details_and_notes": "Détails et notes",
+  "details": "Détails",
+  "notes": "Notes",
+  "locale": "Langue de l’utilisateur",
+  "tags": "Marqueurs",
+  "organization": "Organisation",
+  "ticket_status": {
+    "new": "n",
+    "open": "o",
+    "pending": "a",
+    "hold": "p",
+    "solved": "r",
+    "closed": "c"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Ce ticket provient du compte Spoke :"
+    }
+  },
+  "account": "Compte",
+  "spoke_ticket_id": "ID de ticket Spoke"
+}

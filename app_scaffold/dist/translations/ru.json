@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/ru.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "Данные пользователя",
+    "description": "Отображает информацию об инициаторе тикета и организации инициаторов.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Область приложений открыта по умолчанию"
+      }
+    }
+  }
+}

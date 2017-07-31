@@ -1,0 +1,12 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM src/translations/ko.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": "사용자 데이터 앱",
+    "description": "티켓 요청자 및 요청자 조직에 관한 정보를 표시합니다.",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "기본으로 열리는 앱 트레이"
+      }
+    }
+  }
+}

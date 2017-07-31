@@ -1,0 +1,48 @@
+{
+  "app": {
+    "description": "Exibe as informações sobre o solicitante do ticket e a organização dos solicitantes.",
+    "name": "Aplicativo Dados do usuário",
+    "parameters": {
+      "unfolded_on_startup": {
+        "label": "Bandeja de aplicativos aberta por padrão"
+      }
+    }
+  },
+  "admin": {
+    "title": "Painel do administrador dos dados do usuário",
+    "save": "Salvar e voltar",
+    "text": "Selecione os campos do usuário que gostaria de exibir permanentemente no aplicativo",
+    "include_org_fields": "Exibir informações da organização"
+  },
+  "info": {
+    "no_tags": "Nenhuma tag",
+    "no_domain_names": "Nenhum nome de domínio"
+  },
+  "update_organization_done": "Observações e detalhes da organização atualizados",
+  "update_user_done": "Observações e detalhes do usuário atualizados!",
+  "ajax_error": "Ocorreu um erro. Tente novamente mais tarde.",
+  "tickets": "Tickets",
+  "toggle_details_notes": "Ocultar/exibir detalhes e observações",
+  "toggle_organization": "Ocultar/exibir organização",
+  "details_and_notes": "Detalhes e observações",
+  "details": "Detalhes",
+  "notes": "Observações",
+  "locale": "Idioma do usuário",
+  "tags": "Tags",
+  "organization": "Organização",
+  "ticket_status": {
+    "new": "n",
+    "open": "a",
+    "pending": "p",
+    "hold": "e",
+    "solved": "r",
+    "closed": "f"
+  },
+  "spoke-ticket": {
+    "link": {
+      "pre": "Esse ticket pertence a uma conta vinculada:"
+    }
+  },
+  "account": "Conta",
+  "spoke_ticket_id": "ID do ticket vinculado"
+}
