@@ -133,6 +133,7 @@ const app = {
 
       each(storage('organizationFields'), (field) => {
         if (field.key === '##builtin_tags') {
+          // should we leave a comment here?
         } else if (field.key === '##builtin_notes') {
           field.editable = storage('orgEditable.notes')
         } else {
